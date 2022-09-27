@@ -6,10 +6,56 @@
     text-align: center;
 }
 
+.page-wrapper > .header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.page-wrapper > .header-wrapper > .header-image img{
+    width: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
 .page-wrapper > .header-wrapper h1 {
     font-size: 75px;
+    margin-top: 100px;
 }
 
 .page-wrapper > .info-wrapper {
     font-size: 20px;
+}
+
+.page-wrapper > .info-wrapper p {
+    margin: 10px;
+    margin-left: 175px;
+    width: 1000px;
+}
+
+.page-wrapper > .info-wrapper a {
+    color: darkorange;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+.page-wrapper > .info-wrapper a:hover {
+    color: rgb(145, 80, 0);
+}
+
+.page-wrapper > .info-wrapper a:visited {
+    color: rgb(145, 80, 0);
+}
+
+.page-wrapper > .button-wrapper button {
+    background-color: azure;
+    border: #cfb9a0;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.page-wrapper > .button-wrapper button:hover {
+    background-color: rgb(200, 216, 216);
 }
