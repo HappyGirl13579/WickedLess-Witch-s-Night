@@ -1,0 +1,22 @@
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.page-wrapper > .left-column-wrapper img {
+    margin-left: 25%;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.page-wrapper > .right-column-wrapper h1 {
+    font-size: 50px;
+}
+
+.page-wrapper > .right-column-wrapper p {
+    font-size: 2rem;
+}
+
+.page-wrapper > .right-column-wrapper > .info-wrapper {
+    margin-left: 10px;
+}

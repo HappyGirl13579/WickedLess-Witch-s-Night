@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    color: #cfb9a0;
     text-align: center;
 }
 
@@ -32,18 +31,8 @@
     width: 1000px;
 }
 
-.page-wrapper > .info-wrapper a {
-    color: darkorange;
-    transition-duration: 1s;
-    text-decoration: none;
-}
-
-.page-wrapper > .info-wrapper a:hover {
-    color: rgb(145, 80, 0);
-}
-
 .page-wrapper > .info-wrapper a:visited {
-    color: rgb(145, 80, 0);
+    color: rgb(50, 21, 65);
 }
 
 .page-wrapper > .button-wrapper button {

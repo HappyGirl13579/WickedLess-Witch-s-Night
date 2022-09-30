@@ -1,4 +1,16 @@
 body{
     background-color: #523617;
     margin: 0;
+    color: #cfb9a0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: darkorchid;
+    transition-duration: 1s;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(50, 21, 65);
 }

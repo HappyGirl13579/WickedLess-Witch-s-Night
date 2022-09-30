@@ -2,7 +2,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    color: #cfb9a0;
     text-align: center;
 }
 
@@ -14,7 +13,6 @@
 
 .page-wrapper > .header-wrapper h1 {
     font-size: 100px;
-    margin-top: 100px;
     margin-top: 250px;
     color: black;
 }

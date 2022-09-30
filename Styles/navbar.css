@@ -19,16 +19,16 @@
 .navbar-wrapper > .link-wrapper > .navlink {
     margin: 10px;
     margin-top: 40px;
+    font-size: 50px;
 }
 
-.navbar-wrapper > .link-wrapper > .navlink a {
-    font-size: 50px;
-    color: orange;
+.nav-link a {
+    color: darkorchid;
     transition-duration: 1s;
     text-decoration: none;
 }
 
-.navbar-wrapper > .link-wrapper > .navlink a:hover {
-    color: rgb(145, 80, 0);
+.nav-link a:hover {
+    color: rgb(50, 21, 65);
     cursor: pointer;
 }
