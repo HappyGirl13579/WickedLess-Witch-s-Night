@@ -1,19 +1,13 @@
 .page-wrapper {
+    background-image: url(/Images/Background2.jpg);
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    text-align: center;
 }
 
 .page-wrapper > .header-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
-.page-wrapper > .header-wrapper > .header-image img{
-    width: 500px;
-    margin-top: 10px;
-    margin-left: 10px;
+    background-color: black;
+    text-align: center;
 }
 
 .page-wrapper > .header-wrapper h1 {
@@ -23,16 +17,43 @@
 
 .page-wrapper > .info-wrapper {
     font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-left: 20px;
 }
 
 .page-wrapper > .info-wrapper p {
     margin: 10px;
-    margin-left: 175px;
-    width: 1000px;
+    text-align: right;
+}
+
+.page-wrapper > .left-column-wrapper {
+    margin-left: 20px;
+}
+
+.page-wrapper > .left-column-wrapper p.where {
+    margin-bottom: 100px;
+}
+
+.page-wrapper > .info-wrapper > .right-column-wrapper p {
+    text-align: left;
+}
+
+.page-wrapper > .info-wrapper a {
+    color: rgb(228, 162, 19);
+}
+
+.page-wrapper > .info-wrapper a:hover {
+    color: rgb(141, 106, 11);
 }
 
 .page-wrapper > .info-wrapper a:visited {
-    color: rgb(50, 21, 65);
+    color: rgb(141, 106, 11);
+}
+
+.page-wrapper > .button-wrapper {
+    display: flex;
+    justify-content: center;
 }
 
 .page-wrapper > .button-wrapper button {

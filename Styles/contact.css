@@ -1,3 +1,7 @@
+body {
+    background-image: url(/Images/Background4.jpg);
+}
+
 .page-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -19,4 +23,8 @@
 
 .page-wrapper > .right-column-wrapper > .info-wrapper {
     margin-left: 10px;
+}
+
+.page-wrapper > .right-column-wrapper > .info-wrapper a:hover {
+    color: rgb(89, 47, 110);
 }
